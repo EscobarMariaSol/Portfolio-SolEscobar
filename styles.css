@@ -17,17 +17,29 @@ header {
     font-size: xxx-large;
 }
 
-#sobreMi {
+.tituloSeccion {
     text-align: center;
-    font-size: xx-large;
+    font-size: xxx-large;
     margin: 5%;
 }
 #miFoto {
     border-radius: 50%;
-    width: 25%;
-    height: 25%;
+    width: 20em;
+    height: 20em;
 }
 #divSobreMi {
     display: flex;
     flex-direction: row;
+    background-color: black;
+    padding: 1%;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: nowrap;
+}
+#descripcionSobreMi {
+    text-align: center;
+    padding: 2.5%;
+    font-size: 1.5em;
+    color: white;
+    margin: 1%;
 }
