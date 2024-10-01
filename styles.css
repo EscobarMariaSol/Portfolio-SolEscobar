@@ -1,0 +1,33 @@
+body {
+    font-family: monospace;
+    display: flex;
+    flex-direction: column;
+    margin: 0;
+    height: 100%;
+
+}
+header {
+    text-align: center;
+    background-color:black;
+    color: #fcf7fe;
+    padding: 2.5%;
+}
+
+#nombre {
+    font-size: xxx-large;
+}
+
+#sobreMi {
+    text-align: center;
+    font-size: xx-large;
+    margin: 5%;
+}
+#miFoto {
+    border-radius: 50%;
+    width: 25%;
+    height: 25%;
+}
+#divSobreMi {
+    display: flex;
+    flex-direction: row;
+}
