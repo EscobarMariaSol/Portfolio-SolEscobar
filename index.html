@@ -5,9 +5,8 @@
         <meta name="viewport" content="width=device-width, initial-scale=1.0" />
         <title>Portfolio Maria Soledad Escobar</title>
         <link href="styles.css" rel="stylesheet"/>
-        <link rel="preconnect" href="https://fonts.googleapis.com">
-        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
         <link href="https://fonts.googleapis.com/css2?family=Anton&family=Rubik+Mono+One&display=swap" rel="stylesheet">
+        <script src="https://kit.fontawesome.com/76a566ebda.js" crossorigin="anonymous"></script>
     </head>
     <body>
         <header>
@@ -73,16 +72,31 @@
             <!-- Formulario sencillo HTML sin funcionalidad.
             Con campos nombre, apellido, email, telefono y un boton submit de enviar -->
             <div id="contacto">
-                <h2 class="tituloSeccion"> Datos de Contacto</h2>
-                <form action=""></form>
+                <h2 class="tituloSeccion">Contacto</h2>
+                <div id="divContactar" class="divContacto">
+                    <h2>Puedes dejarme tus datos para contactarte:</h2>
+                    <form id="formContacto" action="">
+                        <label for="nombreContacto">Nombre:</label>
+                        <input type="text" name="nombreContacto" id="nombreContacto">
+                        <label for="mailContacto">Mail:</label>
+                        <input type="emailContacto" name="mail" id="mailContacto">
+                        <label for="comentario">Comentario:</label>
+                        <textarea name="comentario" id="comentario" rows="5"></textarea>
+                        <button id="enviar" name="enviar">Enviar</button>
+                    </form>
+                </div>
             </div>
             <div id="proyectos">
                 <h2 class="tituloSeccion"> Mis Proyectos</h2>
             </div>
         </main>
         <footer>
-            <div>
-
+            <div id="divContactame" class="divContacto">
+                <i class="fa-brands fa-whatsapp" style="color: #63E6BE;"></i>
+                <a href="">Whatsapp</a>
+                <a href="">LinkedIn</a>
+                <a href="">GitHub</a>
+                <a href="">Mail</a>
             </div>
         </footer>
     </body>
