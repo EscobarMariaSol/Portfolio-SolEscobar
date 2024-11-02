@@ -82,6 +82,10 @@ table td {
     flex-direction: column;
 }
 
+#divContactar h2 {
+    font-size: xx-large;
+}
+
 #formContacto {
     display: flex;
     flex-direction: column;
@@ -90,11 +94,12 @@ table td {
 
 input, textarea {
     margin-bottom: 5%;
-    width: 50em;
+    width: 35rem;
 }
 
 label {
     margin-bottom: 2%;
+    font-size: large;
 }
 
 button {
@@ -102,8 +107,9 @@ button {
 }
 #enviar {
     margin-bottom: 5%;
-    width: 25em;
+    width: 35rem;
     align-self: center;
+    font-size: large;
 }
 
 #divContactame {
@@ -122,4 +128,45 @@ button {
 
 footer {
     width: 100%;
+}
+
+.estudios {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+
+.estudio {
+    border: solid;
+    border-width: 1px;
+    margin: 0.2rem;
+    width: 33%;
+    display: flex;
+    flex-wrap: wrap;
+    align-content: space-around;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.desarrolloEstudio {
+    width: 100%;
+    height: 60%;
+    overflow: auto;
+}
+
+.desarrolloEstudio p {
+    padding: 0.5rem;
+}
+
+.tituloEstudio, .detallesEstudio {
+    text-align: center;
+    height: 20%;
+    width: 100%;
+    background-color: black;
+    color: white;
+}
+
+.detallesEstudio a {
+    color: white;
+    text-decoration: none;
 }
