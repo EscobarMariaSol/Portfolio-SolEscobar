@@ -71,19 +71,17 @@ header {
 
 footer {
     width: 100%;
-    background-color: black;
+    background-color: white;
     color: white;
 }
 
 #divContactame {
     width: 100%;
     text-align: center;
-    padding: 5% 0%;
+    padding: 2.5% 0%;
 }
 
 #divContactame a {
-    color: white;
-    background-color: black;
     text-decoration: none;
     margin: 5%;
     padding: 1% 2.5%;
