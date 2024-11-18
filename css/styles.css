@@ -1,0 +1,91 @@
+body {
+    font-family: monospace;
+    display: flex;
+    flex-direction: column;
+    margin: 0;
+    height: 100%;
+
+}
+
+main {
+    padding-bottom: 5%;
+}
+
+header {
+    text-align: center;
+    background-color:black;
+    color: #fcf7fe;
+    padding: 2% 0%;
+    
+}
+
+#nombre {
+    font-size: xxx-large;
+}
+
+.subtitulo {
+    margin-bottom: 2%;
+}
+
+.tituloSeccion {
+    text-align: center;
+    font-size: xxx-large;
+    margin: 4%;
+}
+
+#miFoto {
+    border-radius: 50%;
+    width: 25em;
+    height: 25em;
+    margin-top: 5%;
+}
+#divSobreMi {
+    display: flex;
+    flex-direction: column;
+    padding: 1%;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: nowrap;
+}
+#descripcionSobreMi {
+    background-color: black;
+    text-align: center;
+    font-size: 1.5em;
+    color: white;
+    width: 100%;
+    padding: 1%;
+    line-height: 1.5;
+}
+
+.navbar a{
+    margin: 0% 2.5%;
+    text-align: center;
+    border-style: none;
+    background-color: black;
+    color: white;
+    text-decoration: none;
+    padding: 0% 2.5% 2.5% 2.5%;
+    z-index: -2;
+    font-size: medium;
+}
+
+footer {
+    width: 100%;
+    background-color: black;
+    color: white;
+}
+
+#divContactame {
+    width: 100%;
+    text-align: center;
+    padding: 5% 0%;
+}
+
+#divContactame a {
+    color: white;
+    background-color: black;
+    text-decoration: none;
+    margin: 5%;
+    padding: 1% 2.5%;
+}
+

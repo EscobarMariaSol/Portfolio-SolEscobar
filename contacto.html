@@ -5,6 +5,7 @@
         <meta name="viewport" content="width=device-width, initial-scale=1.0" />
         <title>Portfolio Maria Soledad Escobar</title>
         <link href="css/styles.css" rel="stylesheet"/>
+        <link href="css/contacto_styles.css" rel="stylesheet"/>
         <link href="https://fonts.googleapis.com/css2?family=Anton&family=Rubik+Mono+One&display=swap" rel="stylesheet">
     </head>
     <body>
@@ -23,16 +24,22 @@
             </div>
         </header>
         <!--Sección principal de la página con toda mi información-->
-        <main>
-            <div id="sobreMi">
-                <div id="divSobreMi">
-                    <img id="miFoto" src="images/IMG_20241111_202454_875.jpg">
-                    <p id="descripcionSobreMi">
-                        Soy estudiante de desarrollo de software con un fuerte interés en la creación de aplicaciones innovadoras y soluciones tecnológicas. 
-                        Tengo conocimientos en lenguajes como JavaScript, Java y C/C++, y manejo de bases de datos SQL. 
-                        He desarrollado varios proyectos académicos, desarrollando pequeñas aplicaciones aplicando modelado con UML, prototipado, HTML, CSS y conceptos de testing.
-                        Busco mi primera oportunidad profesional en una empresa donde pueda aplicar mis conocimientos y seguir aprendiendo sobre desarrollo de software en un entorno colaborativo. 
-                    </p>
+        <main>    
+            <!-- Formulario sencillo HTML sin funcionalidad.
+            Con campos nombre, apellido, email, telefono y un boton submit de enviar -->
+            <div id="contacto">
+                <h2 class="tituloSeccion">Contacto</h2>
+                <div id="divContactar" class="divContacto">
+                    <h2>Puedes dejarme tus datos para contactarte:</h2>
+                    <form id="formContacto" action="">
+                        <label for="nombreContacto">Nombre:</label>
+                        <input type="text" name="nombreContacto" id="nombreContacto">
+                        <label for="mailContacto">Mail:</label>
+                        <input type="emailContacto" name="mail" id="mailContacto">
+                        <label for="comentario">Comentario:</label>
+                        <textarea name="comentario" id="comentario" rows="5"></textarea>
+                        <button id="enviar" name="enviar">Enviar</button>
+                    </form>
                 </div>
             </div>
         </main>

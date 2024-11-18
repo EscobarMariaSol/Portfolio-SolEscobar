@@ -1,0 +1,40 @@
+.estudios, .divProyectos {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+
+.estudio, .proyecto {
+    border: solid;
+    border-width: 1px;
+    margin: 0.2rem;
+    width: 33%;
+    display: flex;
+    flex-wrap: wrap;
+    align-content: space-around;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.desarrolloEstudio {
+    width: 100%;
+    height: 60%;
+    overflow: auto;
+}
+
+.desarrolloEstudio p {
+    padding: 0.5rem;
+}
+
+.tituloEstudio, .detallesEstudio {
+    text-align: center;
+    height: 20%;
+    width: 100%;
+    background-color: black;
+    color: white;
+}
+
+.detallesEstudio a {
+    color: white;
+    text-decoration: none;
+}

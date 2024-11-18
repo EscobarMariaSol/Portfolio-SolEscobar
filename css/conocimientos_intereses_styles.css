@@ -1,0 +1,19 @@
+table {
+    width: 100%;
+}
+
+table tr {
+    text-align: center; 
+}
+table th {
+    font-size: large;
+    padding: 1% 0%;
+    background-color: black;
+    color: white;
+}
+
+table td {
+    padding: 1% 0%;
+    border-bottom: 1px solid black;
+    font-size: large;
+}

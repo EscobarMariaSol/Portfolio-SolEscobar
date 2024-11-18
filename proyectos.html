@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="utf-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <title>Portfolio Maria Soledad Escobar</title>
+        <link href="css/styles.css" rel="stylesheet"/>
+        <link href="css/proyectos_styles.css" rel="stylesheet"/>
+        <link href="https://fonts.googleapis.com/css2?family=Anton&family=Rubik+Mono+One&display=swap" rel="stylesheet">
+    </head>
+    <body>
+        <!-- Encabezado de Presentación y botones a las distintas secciones -->
+        <header>
+            <div id="tituloPrincipal">
+                <h1 id="nombre" class="titulo">Maria Soledad Escobar</h1>
+                <h2 id="profesion" class="subtitulo">Software Developer</h2>
+            </div>
+            <div class="navbar">
+                <a href="index.html">Sobre Mi</a>
+                <a href="conocimientos_intereses.html">Conocimientos e Intereses</a>
+                <a href="estudios.html">Estudios</a>
+                <a href="contacto.html">Contacto</a>
+                <a href="proyectos.html">Proyectos</a>
+            </div>
+        </header>
+        <!--Sección principal de la página con toda mi información-->
+        <main>
+            <div id="proyectos">
+                <h2 class="tituloSeccion"> Mis Proyectos</h2>
+                <div class="divProyectos">
+                    <div class="proyecto">
+                        <div class="imgProyecto">
+                            <img src="images/encriptador.jpg" alt="">
+                        </div>
+                        <div class="tituloProyecto" id="tituloProyecto">
+                            <h2>Cifrar y Descifrar Mensajes</h2>
+                        </div>
+                        <div class="descripcionProyecto">
+                            <p>En este proyecto se desarrollaron dos programas: uno emisor (o cliente), y otro receptor (o servidor) de un mensaje cifrado. 
+                                El programa emisor deberá leer mensajes por entrada estándar y enviarlos cifrados, mientras que el receptor deberá descifrarlos
+                                 y mostrarlos por salida estándar. Para cifrar los mensajes se deberán implementar tres cifradores distintos, Cesar, Vigenere y
+                                  Rivest Cipher 4. El mensaje a cifrar será recibido a través de la entrada estándar y luego de ser enviado y descifrado será 
+                                  comunicado a través de salida estándar.
+                            </p>
+                        </div>
+                        <div class="repoProyecto">
+                            <a href="https://github.com/EscobarMariaSol/TP1-Taller-de-Programacion.git" target="_blank">Link a GitHub</a>
+                        </div>
+                    </div>
+                    <div class="proyecto">
+                        <div class="imgProyecto">
+                            <img src="images/verificador.png" alt="">
+                        </div>
+                        <div class="tituloProyecto" id="tituloProyecto">
+                            <h2>Verificador de Caracteres</h2>
+                        </div>
+                        <div class="descripcionProyecto">
+                            <p>
+                                En este proyecto de implementó una versión simplificada de un 
+                                verificador de programas eBPF que sólo verificará la existencia o no de bucles de código 
+                                y/o instrucciones sin ejecutar.
+                            </p>
+                        </div>
+                        <div class="repoProyecto">
+                            <a href="https://github.com/EscobarMariaSol/TP1-Taller-de-Programacion.git" target="_blank">Link a GitHub</a>
+                        </div>
+                    </div>
+                    <div class="proyecto">
+                        <div class="imgProyecto">
+                            <img src="images/cliente_servidor.png" alt="">
+                        </div>
+                        <div class="tituloProyecto" id="tituloProyecto">
+                            <h2>Cliente-Servidor</h2>
+                        </div>
+                        <div class="descripcionProyecto">
+                            <p>
+                                En este proyecto se desarrolló una aplicación Cliente-servidor, donde el servidor
+                                 atenderá petitorios HTTP realizados por el cliente, 
+                                mediante los cuales podrá acceder y dar alta a recursos del mismo.
+                            </p>
+                        </div>
+                        <div class="repoProyecto">
+                            <a href="https://github.com/EscobarMariaSol/TP1-Taller-de-Programacion.git" target="_blank">Link a GitHub</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </main>
+        <!--Pie de página con mis enlaces de contacto-->
+        <footer>
+            <div id="divContactame" class="divContacto">
+                <i class="fa-brands fa-whatsapp" style="color: #63E6BE;"></i>
+                <a href="">Whatsapp</a>
+                <a href="">LinkedIn</a>
+                <a href="">GitHub</a>
+                <a href="">Mail</a>
+            </div>
+        </footer>
+    </body>
+</html>

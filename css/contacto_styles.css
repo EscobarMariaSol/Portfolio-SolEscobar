@@ -1,0 +1,39 @@
+#divContactar {
+    color: white;
+    background-color: black;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    width: 70%;
+    margin: 0% 15% 0% 15% ;
+}
+
+#divContactar h2 {
+    font-size: xx-large;
+}
+
+#formContacto {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+input, textarea {
+    margin-bottom: 5%;
+    width: 35rem;
+}
+
+label {
+    margin-bottom: 2%;
+    font-size: large;
+}
+
+button {
+    background-color: white;
+}
+#enviar {
+    margin-bottom: 5%;
+    width: 35rem;
+    align-self: center;
+    font-size: large;
+}
